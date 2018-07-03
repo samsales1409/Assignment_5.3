@@ -1,0 +1,22 @@
+body {
+padding:0px;
+margin:0px;
+}
+
+
+.flex_container{
+
+  display: flex;
+  flex-direction: row;
+}
+.flex_container > div{
+
+  background-color:green;
+  height: 33%;
+  width:500px;
+  padding:10px 10px;
+  text-align: center;
+  margin: 10px;
+  padding: 33% 500px;
+
+}
